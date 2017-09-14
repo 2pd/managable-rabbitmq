@@ -3,11 +3,6 @@ FROM rabbitmq
 MAINTAINER Liang Shi <jeremy@pda.sh>
 
 # install python
-#RUN apt update && \
- # apt install -y software-properties-common python-software-properties 
- ##   #add-apt-repository ppa:deadsnakes/ppa && \
-#RUN apt install -y python3.4 \
-#    wget
 RUN apt update && apt install -y python3.4 wget
 
 # download rabbitmqadmin script
